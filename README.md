@@ -1,1 +1,1 @@
-# Threejs-DracoLoader
+# Threejs-DRACOLoader
