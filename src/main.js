@@ -1,5 +1,5 @@
 
-import { World } from './World.js';
+import { World } from './world/World.js';
 //import { DracoWorld } from './DracoWorld';
 
 function main() {

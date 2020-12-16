@@ -1,20 +1,15 @@
-import { createTriangleMesh } from '../components/triangle.js';
-import { createCamera } from '../components/camera.js';
-import { createScene } from '../components/scene.js';
-import { createCube } from '../components/cube.js';
-import { createRenderer } from '../systems/renderer.js';
-import { Resizer } from '../systems/Resizer.js';
-import { createLights } from '../components/light.js';
-import { Loop } from '../systems/Loop.js';
-import { createControls } from '../systems/controls.js';
-import { ControlLayers } from '../systems/ControlLayers.js';
-//import { readDracoFile } from '../components/dracoModel.js';
+import { createTriangleMesh } from './components/triangle.js';
+import { createCamera } from './components/camera.js';
+import { createScene } from './components/scene.js';
+import { createCube } from './components/cube.js';
+import { createRenderer } from './systems/renderer.js';
+import { Resizer } from './systems/Resizer.js';
+import { createLights } from './components/light.js';
+import { Loop } from './systems/Loop.js';
+import { createControls } from './systems/controls.js';
+import { ControlLayers } from './systems/ControlLayers.js';
 
 
-//import { readDracoFile } from '../components/dracoModel.js';
-
-// These variables are module-scoped: we cannot access them
-// from outside the module
 let camera;
 let renderer;
 let scene;
