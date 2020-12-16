@@ -18,8 +18,9 @@
 
 ## How to run:
 
+- you can open the folder with code editor like visual code or atom.
 
-- To see three js geometry meshes add the  line below to index.html then open it with the live server.
+- To see three js geometry meshes open index.html with the live server.
 
 
-- To see draco model add this line to index.html then open index.html with the live server.
+- To see draco model open draco_index.html with the live server.
