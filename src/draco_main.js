@@ -27,9 +27,9 @@ function draco_main() {
         dracoWorld.hideFirstMesh();
     });
 
-    document.getElementById('hide/showSecondMesh').addEventListener('click', () =>{
+   /* document.getElementById('hide/showSecondMesh').addEventListener('click', () =>{
         dracoWorld.hideSecondMesh();
-    });
+    });*/
 
     document.getElementById('hideAll').addEventListener('click', () =>{
        // world.hideAll();

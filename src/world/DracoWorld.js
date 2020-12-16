@@ -95,9 +95,9 @@ class DracoWorld {
             controlLayers.hideFirstMesh();
         }
 
-        hideSecondMesh() {
+      /*  hideSecondMesh() {
             controlLayers.hideSecondMesh();
-        }
+        }*/
 
         hideAll() {
             controlLayers.hideAll();
