@@ -13,12 +13,14 @@
 - modules:
   - dracoFiles: necessary files to use DRACOLoader
   - Orbitcontrols
+  
+- results: some pictures and short videos of visualization and the report of task
 
 
 
 ## How to run:
 
-you can open the folder with code editor like visual code or atom.
+you can open the folder with code editor like visual studio code or atom.
 
 - To see three js geometry meshes open index.html with the live server.
 
