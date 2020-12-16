@@ -1,6 +1,7 @@
 # Threejs-DRACOLoader
 
-The task is organized in 
+## Main structure
+
  - src folder
 - - world : all src files related to Three js and DracoLoader
 - - - components: all the things that can be placed on scene
