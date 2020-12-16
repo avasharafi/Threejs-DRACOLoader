@@ -6,8 +6,8 @@
    - world : all src files related to Three js and DracoLoader
      - components: all the things that can be placed on scene
      - systems: other systems
-     - World class: load and visualize three js geometry
-     - Draco_World class: load and visualize draco model              
+     - World class: loading and visualizing three js geometry
+     - Draco_World class: loading and visualizing draco model              
    - main: importing World class
    - draco_main: importing Draco_World class
 - modules:
