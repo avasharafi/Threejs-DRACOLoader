@@ -8,8 +8,8 @@
      - systems: other systems
      - World class: 
      - Draco_World class:                 
-  - main: importing World class
-  - draco_main: importing Draco_World class
+   - main: importing World class
+   - draco_main: importing Draco_World class
 - modules:
   - dracoFiles: necessary files to use DRACOLoader
   - Orbitcontrols
