@@ -13,6 +13,8 @@
 - modules:
   - dracoFiles: necessary files to use DRACOLoader
   - Orbitcontrols
+  
+- result: some pictures and short videos of visualization and the report of task
 
 
 
