@@ -82,9 +82,6 @@ class World {
         cube.position.set(-3,1,-1);
 
 
-       // dracoModel.position.set(0,0,-1);
-
-
         // set layers
         triangleMesh.layers.set(0);
         cube.layers.set(1);

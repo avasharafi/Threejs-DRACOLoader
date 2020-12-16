@@ -1,44 +1,52 @@
 
-import { World } from './world.js';
+//import { World } from './World.js';
+import { DracoWorld } from './DracoWorld.js';
 
-function main() {
+function draco_main() {
 
     const container = document.querySelector('#scene-container');
 
-    const world = new World(container);
+    //const world = new World(container);
+    const dracoWorld = new DracoWorld(container);
 
   
 
     document.getElementById('playAnimation').addEventListener('click', ()=>{
-        world.start();
+        //world.start();
+       dracoWorld.start();
     });
 
     document.getElementById('pauseAnimation').addEventListener('click', ()=>{
-        world.stop();
+        //world.stop();
+        dracoWorld.stop();
     });
 
 
     // hide and show
     document.getElementById('hide/showFirstMesh').addEventListener('click', () =>{
-        world.hideFirstMesh();
+       // world.hideFirstMesh();
+        dracoWorld.hideFirstMesh();
     });
 
     document.getElementById('hide/showSecondMesh').addEventListener('click', () =>{
-        world.hideSecondMesh();
+        dracoWorld.hideSecondMesh();
     });
 
     document.getElementById('hideAll').addEventListener('click', () =>{
-        world.hideAll();
+       // world.hideAll();
+        dracoWorld.hideAll();
     });
 
     document.getElementById('showAll').addEventListener('click', () => {
-        world.showAll();
+        //world.showAll();
+       dracoWorld.showAll();
     });
   
-    world.render();
+    //world.render();
+    dracoWorld.render();
 
     
 
   }
 
-  main();
+  draco_main();
