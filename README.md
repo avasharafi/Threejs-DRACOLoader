@@ -3,10 +3,10 @@
 ## Main structure
 
  - src folder
-   - world : all src files related to Three js and DracoLoader
+   - world : all src files are related to Three js and DracoLoader
      - components: all the things that can be placed on scene
      - systems: other systems
-     - World class: loading and visualizing three js geometry
+     - World class: creating and visualizing three js geometry
      - Draco_World class: loading and visualizing draco model              
    - main: importing World class
    - draco_main: importing Draco_World class
