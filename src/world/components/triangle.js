@@ -1,6 +1,7 @@
 function createTriangleMesh() {
 
     var triangleGeometry = new THREE.Geometry(); 
+
     triangleGeometry.vertices.push(new THREE.Vector3( 0.0,  1.0, 0.0));
     triangleGeometry.vertices.push(new THREE.Vector3(-1.0, -1.0, 0.0)); 
     triangleGeometry.vertices.push(new THREE.Vector3( 1.0, -1.0, 0.0));
@@ -14,6 +15,7 @@ function createTriangleMesh() {
       vertexColors:THREE.VertexColors, 
       side:THREE.DoubleSide 
     });
+
     //group.add(triangleGeometry);
     var triangleMesh = new THREE.Mesh(triangleGeometry, triangleMaterial); 
 
